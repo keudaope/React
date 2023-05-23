@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #282D35;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(./images/halfreact.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 75%;
+}
+.lista {
+  margin-top: 46px;
+  max-width: 400px;
+}
+.lista > li {
+  color: #FFF;
+  padding-bottom: 15px;
+}
+ul > li::marker
+{
+  color: #61DAFB;
+  font-size: 1.4rem;
+}
+.sisalto {
+  padding: 57px 27px;
+}
+.otsikko
+{
+  color: #FFF;
+  margin: 0;
+  font-size: 39px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  padding: 30px 25px;
+  height: 90px;
+}
+nav > h3 {
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22px;
+  margin-right: auto;
+}
+nav > h4 {
+  color: #DEEBFB;
+  font-weight: 600;
+}
+img{
+  height: 30px;
+  margin-right: 10px;
+}
