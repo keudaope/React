@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 600px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav{
+  display: flex;
+  align-items: center;
+  background-color: #11222A;
+  height: 90px;
+  padding: 30px 25px;
+  color: #5FD8F8;
+}
+nav > img {
+  margin-right: 7px;
+}
+nav > h3 {
+  margin-right: auto;
+}

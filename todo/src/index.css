@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 20px;
+  width: 800px;
+  color: lightblue;
+}
+#root{
+  background-color: #353333;
+  padding: 0px 10px;
+  height: 500px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navi-asiat
+{
+  list-style: none;
+  display: flex;
+  padding-right: 20px;
+}
+.navi-asiat >li{
+  padding: 10px;
+}
+.navi{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  /* box-shadow: vaaka-offset pysty-offset sumennus leviamissäde väri */
+  box-shadow: 0px 15px 10px -10px #111;  
+  background-color: gray; 
+  margin: 0px -10px;
+}
+.navin-logo{
+  width: 60px;
+  padding-left: 20px;
+}
+footer {
+  background-color: grey;
+  padding: 5px 20px;
+  margin: 0 -10px;
+  margin-top: 240px;
+}
+div > p{
+  font-size: 24px;
+  font-weight: 800;
+}
+.sisalto ul li::before {
+  content: "\1F340";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: lightblue; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  padding-right: 10px;
+}
+ul li{
+  margin-left: 10px;
+}
