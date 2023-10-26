@@ -1,0 +1,1 @@
+ReactDOM.render(<p>Hei, minun nimeni on Jyri Lindroos</p>, document.getElementById("root"));
