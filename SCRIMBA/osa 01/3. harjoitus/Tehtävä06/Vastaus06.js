@@ -7,4 +7,4 @@ const muuttuja = (
         <h1>JSX on mahtava työkalu</h1>
         <p className="teksti">Tämä on selittävä tapa tehdä asioita</p>
     </div>)
-ReactDOM.render(<Muuttuja />, document.getElementById("root"));
+ReactDOM.render(muuttuja, document.getElementById("root"));
