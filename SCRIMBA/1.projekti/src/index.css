@@ -9,7 +9,7 @@ body {
   flex-direction: column;
 }
 .nav {
-  margin-left: 300px;
+  margin-left: 200px;
 }
 .nav li {
   display: inline;

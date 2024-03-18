@@ -1,30 +1,20 @@
-import React from "react";
-import "./index.css";
-import Kuva from "./Kuva";
-import ReactDOM from "react-dom/client";
-import Otsikko from "./Otsikko";
-import Lista from "./Lista";
-import Menu from "./Menu";
-import Alatunniste from "./Alatunniste";
+import React from "react"
+import Joke from "./Joke"
+import jokesData from "./jokesData"
 
-function Kaikki() {
-  return (
-    <>
-      <header>
-        <Kuva />
-        <Menu />
-        <hr />
-      </header>
-      <section>
-        <Otsikko />
-        <Lista />
-      </section>
-      <footer>
-        <Alatunniste />
-      </footer>
-    </>
-  );
+/*
+Challenge: See if you can correctly pass the necessary props to the 
+Joke component in the .map() (and render the jokeElements array) so 
+the jokes show up on the page again
+*/
+
+export default function App() {
+    const jokeElements = jokesData.map(joke => {
+        return <Joke joke />
+    })
+    return (
+        <div>
+            
+        </div>
+    )
 }
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Kaikki />);

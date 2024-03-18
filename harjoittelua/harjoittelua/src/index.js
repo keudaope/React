@@ -6,9 +6,7 @@ return (
     <li>Koti</li>
     <li>Meistä</li>
     <li>Ota yhteyttä</li>
-  </ul>
-  
-  
+  </ul> 
 </div>)
 }
 
@@ -23,7 +21,11 @@ const Footer = () => {
   
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div><Valikko /><Sisalto /><Footer /></div>
+  <div>
+    <Valikko />
+    <Sisalto />
+    <Footer />
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -11,11 +11,11 @@ function App() {
           <Vitsi kysymys="Mit&auml; puhelimelle tapahtuu, jos se tippuu parvekkeelta? "
               vastaus= "ei mit&auml;&auml;n, jos siin&auml; on lentotila p&auml;&auml;ll&auml;" />
           <Vitsi kysymys="Mit&auml; vihainen puusepp&auml; teki verstaallaan?"
-              vastaus="LaatiKostoa"          />
+              vastaus="LaatiKostoa"/>
           <Vitsi kysymys="Kuka eroaa joukosta?"
-              vastaus = "Joukon vaimo"          />
-          <Vitsi kysymys="Mit&auml; tapahtuu, jos auto ajaa joen yli?"
-              vastaus="Joe kuolee"          />
+              vastaus = "Joukon vaimo"/>
+          <Vitsi kysymys="Mitä tapahtuu, jos auto ajaa joen yli?"
+              vastaus="Joe kuolee"/>
     </div>
   );
 }
