@@ -1,0 +1,32 @@
+* {
+  align-content: center;
+}
+.ylatunniste {
+  background-color: red;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: -20px;
+}
+.alatunniste {
+  background-color: green;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+.ylatunniste > H2,
+.alatunniste > H4 {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+.kortti {
+  display: flex;
+  max-width: 50%;
+  border-bottom: 1px solid black;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.kortti--kuva {
+  width: 350px;
+  padding-right: 10px;
+}

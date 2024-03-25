@@ -1,5 +1,4 @@
-import ReactDOM from "react-dom/client";
-
+import ReactDom from "react-dom/client";
 const page = (
   <div>
     <h1>Mahtava websivuni on luotu Reactilla</h1>
@@ -12,8 +11,6 @@ const page = (
     </ol>
   </div>
 );
-
-// document.getElementById("root").append(JSON.stringify(page))
-// Korjattu
-const root = ReactDOM.createRoot(document.getElementById("root"));
+// document.getElementById("root").append(JSON.stringify(page));
+const root = ReactDom.createRoot(document.getElementById("root"));
 root.render(page);

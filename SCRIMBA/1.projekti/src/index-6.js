@@ -17,6 +17,7 @@ const sivu = (
       <li>On Facebookin ylläpitämä</li>
       <li>Toimii moottorina tuhansille ohjelmille, myös mobiilisoftille</li>
     </ul>
+    <footer>Copyright © Jyri Lindroos 2024</footer>
   </div>
 );
 

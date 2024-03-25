@@ -1,18 +1,14 @@
 import "../src/style.css";
-
-/* Challenge:
-
-- Create a Contact.js component in another file
-- Move one of the contact card divs below into that file
-- import and render 4 instances of that contact card
-    - Think ahead: what's the problem with doing it this way?
-*/
+import kissa1 from "../images/whiskerson.png";
+import kissa2 from "../images/fluffy.png";
+import kissa3 from "../images/felix.png";
+import kissa4 from "../images/pumpkin.png";
 
 function Kisut() {
   return (
     <div className="contacts">
       <div className="contact-card">
-        <img src="../images/whiskerson.png" />
+        <img src={kissa1} />
         <h3>Mr. Whiskerson</h3>
         <div className="info-group">
           <img src="../images/phone-icon.png" />
@@ -25,7 +21,7 @@ function Kisut() {
       </div>
 
       <div className="contact-card">
-        <img src="../images/fluffy.png" />
+        <img src={kissa2} />
         <h3>Fluffykins</h3>
         <div className="info-group">
           <img src="../images/phone-icon.png" />
@@ -38,7 +34,7 @@ function Kisut() {
       </div>
 
       <div className="contact-card">
-        <img src="./images/felix.png" />
+        <img src={kissa3} />
         <h3>Felix</h3>
         <div className="info-group">
           <img src="./images/phone-icon.png" />
@@ -51,7 +47,7 @@ function Kisut() {
       </div>
 
       <div className="contact-card">
-        <img src="./images/pumpkin.png" />
+        <img src={kissa4} />
         <h3>Pumpkin</h3>
         <div className="info-group">
           <img src="./images/phone-icon.png" />

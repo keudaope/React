@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import "./index.css";
+//import "./index.css";
 function Ylatunniste() {
   return (
     <div>
@@ -12,7 +12,7 @@ function Ylatunniste() {
     </div>
   );
 }
-function Sivu() {
+function Paasisalto() {
   return (
     <div>
       <h1>Tietoa Reactista</h1>
@@ -41,7 +41,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
     <Ylatunniste />
-    <Sivu />
+    <Paasisalto />
     <Alatunniste />
   </div>
 );
