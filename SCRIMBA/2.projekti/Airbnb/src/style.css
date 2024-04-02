@@ -1,84 +1,3 @@
-/* * {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-}
-
-nav {
-  height: 70px;
-  display: flex;
-  padding: 20px 36px;
-  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
-}
-
-.lihava {
-  font-weight: bold;
-}
-
-.harmaa {
-  color: #918e9b;
-}
-
-.nav--logo {
-  max-width: 100px;
-}
-
-section {
-  padding: 20px;
-}
-
-.paa {
-  display: flex;
-  flex-direction: column;
-}
-
-.paa--photo {
-  max-width: 400px;
-  align-self: center;
-}
-
-.paa--header {
-  margin-bottom: 16px;
-}
-
-.paa--text {
-  margin-top: 0;
-}
-
-.kortti {
-  width: 175px;
-  font-size: 12px;
-  flex: 0 0 auto; 
-  display: flex; 
-  flex-direction: column; 
-}
-
-.kortti--kuva {
-  width: 100%;
-  border-radius: 9px;
-}
-
-
-.kortti--title {
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.kortti--tilasto {
-  display: flex;
-  align-items: center;
-}
-
-.kortti--tahti {
-  height: 14px;
-}
-
-.kortti-hinta {
-  margin-top: auto;
-} */
 * {
   box-sizing: border-box;
 }
@@ -152,7 +71,7 @@ section {
 }
 
 .card--image {
-  height: 100%;
+  width: 100%;
   border-radius: 9px;
   margin-bottom: 9px;
 }
