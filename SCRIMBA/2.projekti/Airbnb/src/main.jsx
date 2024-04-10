@@ -10,15 +10,11 @@ import ReactDOM from "react-dom/client";
 import Kappale from "./ex5/Kappale.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    {/* Viides harjoitus (ex5) */}
-        <Kappale teksti="hello, hello, mitä kello?">
-        <h1>Terveisiä main.jsx:stä</h1>
-      </Kappale>
+    <Section1 /> 
   </React.StrictMode>
 );
 
 {/* Ensimmäinen harjoitus (ex1) */}
-// <Section1 /> 
 
 {/* Toinen harjoitus (ex2) */}
 {/* <Section2 /> */}
@@ -35,7 +31,11 @@ painikeTeksti={"Paina minua!"}
 kasittelePainallus={sanoBoo}
 /> */}
 // function sanoBoo() {
-//   console.log("boo from main.jsx!");
-// }
-
+  //   console.log("boo from main.jsx!");
+  // }
+  
+  {/* Viides harjoitus (ex5) */}
+    {/* <Kappale teksti="hello, hello, mitä kello?">
+      <h1>Terveisiä main.jsx:stä</h1>
+    </Kappale> */}
   
