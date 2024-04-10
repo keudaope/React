@@ -5,7 +5,7 @@ const Section = () => {
   return (
     <div>
       <Otsikko />
-      <Kappale />
+      <Kappale teksti="Tämä on ensimmäisen tehtävän teksti"/>
     </div>
   );
 };
