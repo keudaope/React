@@ -1,5 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+// esimerkit
+import Count from "./esimerkit/Count.jsx";
+import Laskuri1 from "./esimerkit/Laskuri1.jsx";
+
 import App from "./App.jsx";
 import Laskin from "./Laskin.jsx";
 import Mario from "./ex2/Mario.jsx";
@@ -12,6 +16,6 @@ import "./style.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Laskuri />
+    <Count />
   </React.StrictMode>
 );
