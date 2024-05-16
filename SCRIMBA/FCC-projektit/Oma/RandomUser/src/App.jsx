@@ -28,7 +28,8 @@ function App() {
               alt={`${person.name.first} ${person.name.last}`}
             />
             <h2>{`${person.name.title} ${person.name.first} ${person.name.last}`}</h2>
-            <p>{`${person.location.street.number} ${person.location.street.name}, ${person.location.city}, ${person.location.state}, ${person.location.country}`}</p>
+          <p>{`${person.location.street.name} ${person.location.street.number}, ${person.location.city}`}</p>
+          <p> {`${person.location.state}, ${person.location.country}`}</p>
           </div>
         )}
       </header>
