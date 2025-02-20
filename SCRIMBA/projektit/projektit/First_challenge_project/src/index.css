@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #282d35;
+  color: white;
+  background-image: url("./assets/react.png");
+  background-repeat: no-repeat;
+  background-position: right 70%;
+  background-size: 100px;
+}
+
+header {
+  height: 90px;
+  background-color: #21222a;
+  padding: 30px 25px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+nav > img {
+  width: 40px;
+  margin-right: 7px;
+}
+
+nav > span {
+  color: #61dafb;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+main {
+  padding: 60px 30px;
+}
+main > h1 {
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+ul {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+ul > li {
+  padding-block: 10px;
+  line-height: 19px;
+}
+ul > li::marker {
+  color: #61dafb;
+  font-size: 1.5rem;
+}
