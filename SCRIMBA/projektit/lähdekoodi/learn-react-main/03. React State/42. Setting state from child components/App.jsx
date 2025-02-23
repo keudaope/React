@@ -1,7 +1,6 @@
 import React from "react";
 import avatar from "./images/user.png";
-import starFilled from "./images/star-filled.png";
-import starEmpty from "./images/star-empty.png";
+
 import Star from "./Star";
 
 export default function App() {
@@ -10,10 +9,8 @@ export default function App() {
     lastName: "Doe",
     phone: "+1 (212) 555-1212",
     email: "itsmyrealname@example.com",
-    isFavorite: false,
+    isFavorite: true,
   });
-
-  let starIcon = contact.isFavorite ? starFilled : starEmpty;
 
   function toggleFavorite() {
     setContact((prevContact) => ({
@@ -43,7 +40,7 @@ export default function App() {
           alt="User profile picture of John Doe"
         />
         <div className="info">
-          <Star />
+          <Star isFilled={contact.isFavorite} onClick={toggleFavorite} />
           <h2 className="name">
             {contact.firstName} {contact.lastName}
           </h2>

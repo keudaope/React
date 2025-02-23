@@ -1,13 +1,15 @@
+import React from "react";
 export default function Pad(props) {
-    /**
-     * Challenge part 3:
-     * Our buttons got turned off by default! Update the code
-     * so if the button is "on", it has the className of "on".
-     */
-    
-    return (
-        <button 
-            style={{backgroundColor: props.color}}
-        ></button>
-    )
+  const [padStatus, setPadStatus] = React.useState(props.on);
+
+  function toggleStatus() {
+    setPadStatus((prev) => !prev);
+  }
+  return (
+    <button
+      style={{ backgroundColor: props.color }}
+      className={padStatus ? "on" : ""}
+      onClick={toggleStatus}
+    ></button>
+  );
 }
